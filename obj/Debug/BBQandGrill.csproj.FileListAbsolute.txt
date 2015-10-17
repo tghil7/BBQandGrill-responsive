@@ -1,0 +1,5 @@
+C:\Users\Anicet\Documents\Visual Studio 2010\Projects\BBQandGrill\bin\BBQandGrill.dll
+C:\Users\Anicet\Documents\Visual Studio 2010\Projects\BBQandGrill\bin\BBQandGrill.pdb
+C:\Users\Anicet\Documents\Visual Studio 2010\Projects\BBQandGrill\obj\Debug\BBQandGrill.dll
+C:\Users\Anicet\Documents\Visual Studio 2010\Projects\BBQandGrill\obj\Debug\BBQandGrill.pdb
+C:\Users\Anicet\Documents\Visual Studio 2010\Projects\BBQandGrill\obj\Debug\BBQandGrill.csprojResolveAssemblyReference.cache
