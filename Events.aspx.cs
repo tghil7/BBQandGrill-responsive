@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
+using MySql.Data.MySqlClient;
 using System.Data.SqlClient;
 
 namespace BBQandGrill
@@ -20,16 +21,16 @@ namespace BBQandGrill
         public void Get_Event(object sender, EventArgs e)
         {
             DataSet my_Event_Set = new DataSet();
-              if (eventText.Text == string.Empty)
+            if (eventText.Text == string.Empty)
             {
                 errorMessage.CssClass = "errorTextClass";
-                errorMessage.Text = "Please enter a valid city"; 
+                errorMessage.Text = "Please enter a valid city";
             }
 
 
             else
             {
-                SqlConnection conn_Event = new SqlConnection("Data Source=ANICET-HP\\SQLEXPRESSBACK;Initial Catalog=CSharpEvents;Integrated Security=True");
+                SqlConnection conn_Event = new SqlConnection("Data Source=LAPTOP-5G5115C0\\SQLEXPRESS;Initial Catalog=CSharpEvents;Integrated Security=True");
                 conn_Event.Open();
 
 
@@ -72,11 +73,11 @@ namespace BBQandGrill
                         Page.Controls.Remove(cityLabel);
                         Page.Controls.Remove(eventText);
                         Page.Controls.Remove(submit_City);
-                       
+
 
 
                     }
-                    
+
 
                 }
                 finally
@@ -90,10 +91,10 @@ namespace BBQandGrill
                     }
                 }
 
-             }
+            }
 
         }
 
-     
+
     }
 }

@@ -1,0 +1,623 @@
+﻿/* 
+*
+*  NEXUS 5
+*
+*/
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        background-color: #E8E8E8;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+       
+    }
+
+    table {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    #aboutUs{
+        color: Blue; 
+        width: auto;  
+        text-align: left;
+    }
+    #wrapper {
+        font-style: normal;
+        background-color: White;
+        background-image: url('../Images/beefbob.png');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        align-self:auto;
+
+    }
+
+    .grandMa{
+        color: black;
+    }
+
+    #formStyle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sub_Menu{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #logoDiv{
+        width:30%;
+        height:auto;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    @font-face {
+        font-family: titleFont;
+        src: url('../Images/AlbertText-Bold.ttf');
+    }
+
+    #headOfSite {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .titleshow {
+        background-color: purple;
+        float: left;
+    }
+
+    #mainNav {
+        background-color: #000033;
+        color: grey;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        font-size: small;
+    }
+
+    .dropdown-menu{
+       background-color: #000033;
+    }
+
+    #footlink {
+        margin-left: inherit;
+        margin-bottom: inherit;
+        font-size: small;
+        width: 100%; 
+        background-color: #000033;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: none;
+            color: green;
+        }
+
+    #variableContent {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        display: flex;
+    }
+
+    #siteTitle {
+        float: left;
+        font-family: Cambria;
+        font-style: italic;
+        font-weight: bold;
+        font-size: medium;
+        height: auto;
+        width: 35%;
+        text-align: center;
+        color: black;
+    }
+
+    .headerLink{
+        justify-content:space-around; 
+    }
+
+
+
+    .bigTitleHead {
+        font-family: titleFont;
+        font-variant: normal;
+        text-transform: capitalize;
+        color: black;
+        display: flex;
+        justify-content:flex-start;
+      
+        
+    }
+
+    .flex-item{
+        justify-content:space-around;
+    }
+
+    .thumb{
+       width: 25%;
+       height: auto;
+       margin: 2%;
+    }
+
+    #slogan {
+        color: black;
+        font-size: small;
+    }  
+
+
+
+    #Select1 {
+        width: 20%;
+    }
+
+    .Icon{
+       justify-content: center;
+       flex-direction: column;
+       display: flex;
+       color: blue;
+    }
+
+    .tdLinks{
+        text-align: center;
+    }
+
+
+
+    .bottomTable {
+        width: 100%;
+        text-decoration: none;
+        background-color: #000033;
+        overflow-x: auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        
+    }
+
+    .dataTableClass {
+        width: 40%;
+        text-decoration: none;
+        padding: 4%;
+        color: black;
+        background-color: #E0E0E0;
+    }
+
+    .textClass {
+        color: black;
+    }
+
+    #contactForm {
+        border-style: solid;
+        margin: 1%;
+        width: 100%;
+        color: black;
+        padding: 10px;
+        background-color: Lime;
+    }
+
+    #contactPage {
+        color: black;
+    }
+
+    .hide {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    .show {
+        display: inline;
+    }
+
+    .errorTextClass {
+        color: Red;
+    }
+
+    .removeSpace {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    
+    .warnText {
+        font-size: medium;
+        background-color: Yellow;
+        color: Red;
+        position: relative;
+    }
+
+    #deals {
+        color: black;
+        text-align: left;
+        padding: 15px;
+    }
+
+
+    .auto-style1 {
+        font-size: x-large;
+        text-decoration: none;
+        color: black;
+        background-color: #E0E0E0;
+        text-align: center;
+    }
+
+    #locationResults {
+        float: right;
+    }
+
+    /* Container for all terms and definitions */
+    .accordion {
+        background-color: #eef;
+        width: 100%;
+        margin-top: 0.1%;
+        font-family: Verdana, Tahoma, Sans-Serif;
+   
+        color: black;
+    }
+    /* term box contains the term to be defined */
+    .term {
+        padding: 2%;
+        background: url("../Images/tinyArrow.png") no-repeat 98% center;
+        border: solid 1px white;
+        margin: auto;
+        color: black;
+    }
+
+        .term:hover {
+            color: green;
+            font-weight: bold;
+
+        }
+    /* Paragraph contains the definition. */
+    .accordion p {
+        margin: 0;
+        padding: 1%;
+        background-color: white;
+        display: none;
+        color: black;
+        font-size: x-small;
+    }
+
+
+
+    #myNewMenu .img-rounded:hover {
+        border: solid;
+        border-color: green;
+    }
+
+   
+
+    .breakfastImg{
+        border: solid;
+        width: 90%;
+        height: auto;
+
+        
+    }
+
+    .bottomData {
+       color: grey; 
+       padding-bottom: 5%;
+    }
+
+    .img-rounded{
+        width: 100%;
+        height: auto;
+        border: solid;
+        border-color: black;
+    }
+
+    #eventDiv{
+        color: black;
+    }
+
+    #delivery_info{
+        margin-top: 10%; 
+        margin-bottom: 10%;  
+        color:black; 
+        text-align: center;
+    }
+
+    .appetizing{
+        width: 100%;
+    }
+}
+
+/*
+ *
+ *
+ *
+ *
+ */
+
+@media screen and (min-width: 601px) {
+    #wrapper{
+		 width: 82%;
+		 min-width: 1200px;
+		 text-align: center; 
+         padding: inherit;
+         font-style:normal; 
+        
+       
+		 }
+
+@font-face {
+    font-family: titleFont;
+    src: url('.../Images/AlbertText-Bold.ttf');
+}
+
+#headOfSite{
+    background-color: white;
+}
+
+
+
+.titleshow {
+    background-color : Purple;
+    float:left;
+  
+}
+
+#mainNav
+{
+   background-color: #000033 !important;
+   color: grey;
+   text-align: center;
+   margin-bottom: 1%;
+  
+    
+}
+
+#footlink
+{
+    margin-left:inherit;
+    margin-bottom: inherit;
+   
+}
+
+a{text-decoration: none;}
+
+a:hover{
+    text-decoration:none;
+    color:green;
+}
+
+#variableContent
+{
+   margin-bottom: 250px;
+}
+
+#siteTitle
+{
+    float: left;
+    font-family:Cambria;
+    font-style: italic;
+    font-weight:bold;
+    font-size:larger;
+    height: 53px;
+    margin-left: 110px;
+    margin-top: 0px;
+    width: 680px;
+    text-align:center;
+    color: black;
+}
+
+
+        
+        .bigTitleHead
+        {
+            font-family: titleFont;
+            text-align: center;
+            font-size: xx-large;
+            font-variant: normal;
+            text-transform: capitalize;
+            color: black;
+            text-align: center;
+          
+            
+        }
+        
+        #slogan
+        {
+            color: black;
+            float:right;
+            margin-bottom:10px;
+        }
+        
+        
+     
+        #Select1
+        {
+            width: 116px;
+        }
+        
+        
+     
+        .bottomTable
+        {
+            width: 100%;
+            text-decoration:none;
+            background-color: #000033 !important;
+            text-align :center;
+            padding: 10px;
+            
+        }
+        .dataTableClass
+        {
+            width: 165px;
+            text-decoration:none;
+            padding-right: 200px;
+            padding-left : 100px;
+            color:black;
+            background-color: #E0E0E0;
+        }
+        
+        .textClass
+        {
+            color:black;
+        }
+        
+         #contactForm
+         {
+             
+             border-style:solid;
+             margin:15px;
+             width: 900px;
+             color:black;
+             padding: 10px;
+             background-color:Lime;
+         }
+         
+         #contactPage
+         {
+          color:black;   
+         }
+         
+         .hide
+         {
+             display: none;
+             width : 0px;
+             height: 0px;
+             
+         }
+         
+         .show
+         {
+             display: inline;
+         }
+         
+         .errorTextClass
+         {
+             color :Red;
+         }
+         
+         .removeSpace
+         {
+             margin-top : 0px;
+             margin-bottom: 0px;
+         }
+         
+  .sub_Menu
+  {
+       padding: 20px;
+       margin-left: 20px;
+       background-color: white;
+  }
+
+  .footer{
+       font-size: small;  
+       color: black; 
+       text-align: center;
+  }
+     
+ .warnText
+ {
+     font-size: medium;
+     background-color: Yellow; 
+     color:Red; 
+     position:relative;
+     
+       
+ }  
+ 
+#deals
+{
+    color: black;
+    text-align:left;
+    padding: 15px;
+} 
+
+
+.auto-style1
+{
+    
+    text-decoration: none;
+    padding-right: 5%;
+    color: black;
+    background-color: #E0E0E0;
+}
+
+#locationResults
+{
+ float: right;
+}
+
+ /* Container for all terms and definitions */
+.accordion 
+{
+  background-color: #eef;
+  width: 20% ;
+  margin-top: 0.1em;
+  font-family: Verdana, Tahoma, Sans-Serif;
+  margin-bottom: 1em;
+  color: black;
+}
+        /* term box contains the term to be defined */
+.term 
+{
+  padding: 2%;
+  background: url("../Images/tinyArrow.png") no-repeat 98% center;
+  border: solid 1px white;
+  margin:auto;
+  color: black;
+}
+
+.term:hover
+{
+  color: green;
+  font-weight: bold;
+}
+ /* Paragraph contains the definition. */
+.accordion p 
+{
+ margin: 0;
+ padding: 0.5em;
+ background-color: white;
+ display: none;
+ color: black;
+}
+
+
+
+#myNewMenu .img-rounded:hover
+{
+  border: solid;
+  border-color: green;
+}
+
+.img-rounded{
+    border: solid;
+}
+
+#eventDiv{
+        color: black;
+    }
+
+    #delivery_info{
+        margin-top: 10%; 
+        margin-bottom: 10%;  
+        color:black; 
+        text-align: center;
+    }
+
+       
+}
+       

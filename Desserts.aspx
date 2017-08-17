@@ -4,27 +4,46 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div id = "entrees" class="sub_Menu">
-    <table style="width: 100%;">
+    <table>
         <tr>
             <td>
-                &nbsp; 
-                <img alt=" peach cobbler" src="../Images/peach_cobbler.jpg" height="167px" width="290px" /><br />
-                <p class="textClass">Peach Cobbler</p>
+                <img alt=" peach cobbler" src="../Images/peach_cobbler.jpg" class="breakfastImg img-rounded"/>
+                <div class="accordion">
+                    <div class="term">
+                     Peach Cobbler
+                    </div>
+                    <p class="textClass"> Speciality Peach Cobbler made with peaches, brown sugar, flour and eggs.</p>
+                </div>
             </td>
             <td>
-                &nbsp;<img alt="pecan pie" src="../Images/pecan.jpg" height="167px" width="290px" /><br />
-                <p class="textClass">Pecan Pie</p>
+               <img alt="pecan pie" src="../Images/pecan.jpg" class="breakfastImg img-rounded" />
+                <div class="accordion">
+                    <div class="term">
+                        Pecan Pie
+                    </div>
+                    <p>Pecan Pie with pecan nuts, cream and brown sugar.</p>
+                </div>
             </td>
             
         </tr>
         <tr>
             <td>
-                &nbsp;<img alt="Ice cream sandwich" src="../Images/cream_sandwich.jpg" height="167px" width="290px" /><br />
-                <p class="textClass">Ice cream sandwich</p>
+                <img alt="Ice cream sandwich" src="../Images/cream_sandwich.jpg" class="breakfastImg img-rounded"  />
+                <div class="accordion">
+                    <div class="term">
+                        Ice cream sandwich
+                    </div>
+                <p> Home made Ice cream sandwich</p>
+                </div>
             </td>
              <td>
-                &nbsp;<img alt="Cream cheese pie" src="../Images/cream_cheese.jpg" height="167px" width="290px" /><br />
-                <p class="textClass">Cream cheese pie</p>
+                <img alt="Cream cheese pie" src="../Images/cream_cheese.jpg" class="breakfastImg img-rounded" />
+                 <div class="accordion">
+                    <div class="term">
+                        Cream cheese pie
+                    </div>
+                     <p class="textClass">Cream cheese pie with vanilla, eggs and lots of cheese!</p>
+                 </div>
             </td>
         </tr>
         

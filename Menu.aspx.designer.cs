@@ -22,24 +22,6 @@ namespace BBQandGrill {
         protected global::System.Web.UI.WebControls.ImageButton appImage;
         
         /// <summary>
-        /// entreeImage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton entreeImage;
-        
-        /// <summary>
-        /// dessertImage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton dessertImage;
-        
-        /// <summary>
         /// appLabel control.
         /// </summary>
         /// <remarks>
@@ -49,6 +31,15 @@ namespace BBQandGrill {
         protected global::System.Web.UI.WebControls.HyperLink appLabel;
         
         /// <summary>
+        /// entreeImage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton entreeImage;
+        
+        /// <summary>
         /// entreeLabel control.
         /// </summary>
         /// <remarks>
@@ -56,6 +47,15 @@ namespace BBQandGrill {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink entreeLabel;
+        
+        /// <summary>
+        /// dessertImage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton dessertImage;
         
         /// <summary>
         /// dessertLabel control.

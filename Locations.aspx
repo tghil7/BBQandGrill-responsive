@@ -14,10 +14,10 @@
 </div>
 <div id= "locationResults" runat ="server">
     <asp:DataList ID="locationDataList" runat="server">
-    <HeaderTemplate><p style="color:Blue">Nearest location:</p></HeaderTemplate>
+    <HeaderTemplate><p style="color:grey">Nearest location:</p></HeaderTemplate>
     <ItemTemplate >      
              <asp:Label ID="addressLabel" runat="server"
-                            Text='<%# Eval("Street Address") %>' CssClass = "textClass"/><br />
+                            Text='<%# Eval("Address") %>' CssClass = "textClass"/><br />
        <asp:Label ID="cityLabel" runat="server"    Text='<%# Eval("City") %>' CssClass ="textClass" />&nbsp;<asp:Label ID="state" runat="server"
                             Text='<%# Eval("State") %>' CssClass = "textClass" /><br />
      <asp:Label ID="zipLabel" runat="server"
@@ -25,4 +25,5 @@
     </ItemTemplate>
     </asp:DataList>
 </div>
+
 </asp:Content>
