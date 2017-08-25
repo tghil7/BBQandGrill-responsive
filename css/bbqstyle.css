@@ -1,6 +1,6 @@
 ﻿/* 
 *
-*  NEXUS 5
+*  NEXUS 5 and most mobile devices
 *
 */
 @media screen and (max-width: 600px) {
@@ -11,6 +11,10 @@
         flex-wrap: wrap;
         align-content: flex-start;
        
+    }
+
+    window-center{
+        justify-content: center;
     }
 
     table {
@@ -34,6 +38,11 @@
 
     }
 
+    #menuImage{
+         height:auto;
+         width: 100%;
+    }
+
     .grandMa{
         color: black;
     }
@@ -41,6 +50,12 @@
     #formStyle{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #front_text{
+        color: black;
+        font-size: small;
+        width: 55%;     
     }
 
     .sub_Menu{
