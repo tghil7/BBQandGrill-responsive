@@ -1,12 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="Events.aspx.cs" Inherits="BBQandGrill.Events" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <title>Events</title>
-<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div id ="eventDiv">
-<br /><br />
+<div id ="eventDiv" class="eventDisplay">
      <asp:Label ID="cityLabel" runat="server" Text="Please enter your city for events:">
      </asp:Label>
      <asp:TextBox ID ="eventText" runat="server" Text=""  >

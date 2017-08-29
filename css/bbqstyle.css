@@ -10,11 +10,34 @@
         display: flex;
         flex-wrap: wrap;
         align-content: flex-start;
-       
+        font-family: 'Pontano Sans', sans-serif !important;
     }
+
+    .footer-paragraph {
+      display: flex;
+      flex-wrap:wrap-reverse;
+    }
+
+
+
+    .eventDisplay{
+        margin-top: auto;
+    }
+
+    #sendMessage{
+        text-align:right;
+    }
+
+    
 
     window-center{
         justify-content: center;
+    }
+
+    #describeOrder {
+        text-align:left; 
+        margin: auto; 
+        color: #380000;
     }
 
     table {
@@ -73,7 +96,7 @@
     .logo {
         width: 100%;
         height: auto;
-        float: left;
+        align-content: flex-start;
     }
 
     @font-face {
@@ -100,7 +123,7 @@
         color: grey;
         text-align: center;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: flex-start;
         font-size: small;
     }
@@ -152,7 +175,7 @@
 
 
     .bigTitleHead {
-        font-family: titleFont;
+        font-family: 'Berkshire Swash', cursive !important;
         font-variant: normal;
         text-transform: capitalize;
         color: black;
@@ -204,8 +227,35 @@
         justify-content: center;
         flex-direction: column;
         display: flex;
+        align-content:center;
         
     }
+
+    .orderMenu {
+        width: 100%;
+        text-decoration: none;
+        overflow-x: auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        color:blue;
+    }
+
+
+ #copyright{
+     text-align: center;
+     justify-content: center;
+ }
+
+
+
+
+
+
+
+
+
+
 
     .dataTableClass {
         width: 40%;
@@ -364,15 +414,26 @@
  */
 
 @media screen and (min-width: 601px) {
-    #wrapper{
-		 width: 82%;
-		 min-width: 1200px;
-		 text-align: center; 
-         padding: inherit;
-         font-style:normal; 
-        
-       
-		 }
+
+body {
+        width: 100%;
+        background-color: #E8E8E8;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        font-family: 'Pontano Sans', sans-serif !important;
+    }
+
+table tr td:nth-child(2) {
+   align-items: flex-end;
+}
+
+
+
+
+
+
+
 
 @font-face {
     font-family: titleFont;
@@ -439,7 +500,7 @@ a:hover{
         
         .bigTitleHead
         {
-            font-family: titleFont;
+            font-family: 'Berkshire Swash', cursive;
             text-align: center;
             font-size: xx-large;
             font-variant: normal;

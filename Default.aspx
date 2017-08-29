@@ -6,14 +6,14 @@
 
 
 
-
-<div id= "front_text" >
+<div id="defaultPage">
+    <div id= "front_text" >
      <p>Welcome to Paul A's Barbecue and Grill. Here you will find the best barbecue in town, made with fresh ingredients directly harvested in our neighborhing 
         state of Kansas.We also have some of the best italian dishes.
        Please visit  our events page for special events happening near you! 
      </p>
-</div>
- <div class="modal fade window-center" id="myModal" tabindex="-1">
+    </div>
+    <div class="modal fade window-center" id="myModal" tabindex="-1">
                                  <div class="modial-dialog modal-sm">
                                        <div class="modal-content">
                                             <div class="modal-header">
@@ -30,10 +30,10 @@
                                             </div>
                                         </div>    
                                  </div>
-</div>
-<div id ="image_Div">
-    <img id="menuImage"  alt="Menu images" src ="Images/Fish-rotisserie.jpg" class="img-rounded"/>
+   </div>
+   <div id ="image_Div">
+   <img id="menuImage"  alt="Menu images" src ="Images/Fish-rotisserie.jpg" class="img-rounded"/>
 
+   </div>
 </div>
-
 </asp:Content>
