@@ -17,6 +17,8 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="../js/bbq.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Pontano+Sans" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a12a21cb9c.js"></script>
+
 </head>
 
 
@@ -45,15 +47,28 @@
                 <br />
             </div>
 
-            <div id="mainNav" class="dropdown">
-              <button id="button" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" ><span  class="glyphicon glyphicon-th-list"></span></button>
+            <div id="mainNav" >
+            <<div id="dropNav" class="dropdown">
+              <button id="buttonMenu" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" ><span  class="glyphicon glyphicon-th-list"></span></button>
               <ul class="dropdown-menu">
+                  <li><a href="Default.aspx" class="headerLink">HOME</a></li>
                   <li><a href="Menu.aspx" class="headerLink">MENU</a></li>
                   <li><a href="Locations.aspx" class="headerLink">LOCATIONS </a></li>
                   <li><a href="Events.aspx" class="headerLink">EVENTS</a></li>
                   <li><a href="OrderOnline.aspx" class="headerLink"">ORDER ONLINE</a></li>
                   <li><a href="AboutUs.aspx" class="headerLink">ABOUT US</a></li>
               </ul>
+             </div>
+             <div id="inlineNav" >
+              <ul class="nav nav-pills">
+                  <li class="active"><a href="Default.aspx" class="headerLink">HOME</a></li>
+                  <li ><a href="Menu.aspx" class="headerLink">MENU</a></li>
+                  <li><a href="Locations.aspx" class="headerLink">LOCATIONS </a></li>
+                  <li><a href="Events.aspx" class="headerLink">EVENTS</a></li>
+                  <li><a href="OrderOnline.aspx" class="headerLink"">ORDER ONLINE</a></li>
+                  <li><a href="AboutUs.aspx" class="headerLink">ABOUT US</a></li>
+              </ul>
+              </div>
             </div>
 
 
@@ -69,16 +84,16 @@
                     <td class="Icon">
                         <p>Find us on:</p>
                         <a href="http://instagram.com">
-                            <img src="../Images/Instagram.gif" alt="Instagram link" class="thumb"  />
+                            <i class="fa fa-instagram " aria-hidden="true"></i>
                         </a>
-                        <a href="https://facebook.com">
-                            <img src="../Images/facebook.gif" alt="facebook link" class="thumb" />
+                        <a href="http://facebook.com">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
                         </a>
                         <a href="https://twitter.com">
-                            <img src="../Images/twitter.gif" alt="Twitter link" class="thumb" />
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
                         </a>
                         <a href="https://youtube.com">
-                            <img src="../Images/youtube.gif" alt="Youtube link" class="thumb" />
+                            <i class="fa fa-youtube-square" aria-hidden="true"></i>
                         </a>
                     </td>
                     <td class="tdLinks">

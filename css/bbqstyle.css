@@ -18,6 +18,10 @@
       flex-wrap:wrap-reverse;
     }
 
+    #inlineNav{
+        display:none;
+    }
+
 
 
     .eventDisplay{
@@ -91,6 +95,7 @@
     #logoDiv{
         width:30%;
         height:auto;
+       
     }
 
     .logo {
@@ -424,12 +429,26 @@ body {
         font-family: 'Pontano Sans', sans-serif !important;
     }
 
-table tr td:nth-child(2) {
-   align-items: flex-end;
-}
+  #wrapper {
+        font-style: normal;
+        background-color: White;
+        background-image: url('../Images/beefbob.png');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        align-self:auto;
 
+    }
 
+  #dropNav{
+      display:none;
+  }
 
+ #image_Div{
+         height:auto;
+         width: 40%;
+         justify-content:flex-end;
+    }
 
 
 
@@ -464,8 +483,12 @@ table tr td:nth-child(2) {
 
 #footlink
 {
-    margin-left:inherit;
-    margin-bottom: inherit;
+   margin-left: inherit;
+   margin-bottom: inherit;
+   font-size: small;
+   width: 100%; 
+   background-color: #000033;
+   text-align: center;
    
 }
 
@@ -478,27 +501,21 @@ a:hover{
 
 #variableContent
 {
-   margin-bottom: 250px;
+   margin-top: 5%;
+   margin-bottom: 10%;
+   display: flex;
+   flex-wrap: wrap;
 }
 
-#siteTitle
-{
-    float: left;
-    font-family:Cambria;
-    font-style: italic;
-    font-weight:bold;
-    font-size:larger;
-    height: 53px;
-    margin-left: 110px;
-    margin-top: 0px;
-    width: 680px;
-    text-align:center;
-    color: black;
+#siteTitle {
+        font-weight: bold;
+        font-size: larger;
+        width: 65%;
 }
 
 
         
-        .bigTitleHead
+.bigTitleHead
         {
             font-family: 'Berkshire Swash', cursive;
             text-align: center;
@@ -507,27 +524,22 @@ a:hover{
             text-transform: capitalize;
             color: black;
             text-align: center;
-          
-            
-        }
+}
         
-        #slogan
-        {
-            color: black;
-            float:right;
-            margin-bottom:10px;
-        }
+#slogan
+{
+   color: black;
+   float:right;
+   margin-bottom:10px;
+}
         
         
      
-        #Select1
-        {
-            width: 116px;
-        }
+        
         
         
      
-        .bottomTable
+  .bottomTable
         {
             width: 100%;
             text-decoration:none;
@@ -538,12 +550,11 @@ a:hover{
         }
         .dataTableClass
         {
-            width: 165px;
-            text-decoration:none;
-            padding-right: 200px;
-            padding-left : 100px;
-            color:black;
-            background-color: #E0E0E0;
+        width: 40%;
+        text-decoration: none;
+        padding: 4%;
+        color: black;
+        background-color: #E0E0E0;
         }
         
         .textClass
@@ -553,13 +564,12 @@ a:hover{
         
          #contactForm
          {
-             
-             border-style:solid;
-             margin:15px;
-             width: 900px;
-             color:black;
-             padding: 10px;
-             background-color:Lime;
+            border-style: solid;
+            margin: 1%;
+            width: 100%;
+            color: black;
+            padding: 10px;
+            background-color: Lime;
          }
          
          #contactPage
@@ -593,15 +603,17 @@ a:hover{
          
   .sub_Menu
   {
-       padding: 20px;
-       margin-left: 20px;
-       background-color: white;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
   }
 
   .footer{
-       font-size: small;  
-       color: black; 
-       text-align: center;
+         font-size: small;  
+         color: black; 
+         text-align: center;
+         
   }
      
  .warnText
@@ -618,7 +630,7 @@ a:hover{
 {
     color: black;
     text-align:left;
-    padding: 15px;
+    padding: 5%;
 } 
 
 
@@ -629,6 +641,11 @@ a:hover{
     padding-right: 5%;
     color: black;
     background-color: #E0E0E0;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
 }
 
 #locationResults
@@ -693,6 +710,8 @@ a:hover{
         color:black; 
         text-align: center;
     }
+
+    
 
        
 }
