@@ -59,11 +59,9 @@ $("#defaultPage").on("load", function () {
 
     }
 
- /*   $(document).ready(function () {
-        var width = $(window).width();
-        if (width > 600) {
-            $("#mainNav").removeClass("dropdown");
-        }
-    });*/
+    function linkClick(){
+        document.getElementsByTagName("li").className = "active";
+        document.getElementById("home").className = "";
+    }
                    
 

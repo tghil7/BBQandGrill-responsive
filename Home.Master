@@ -48,7 +48,7 @@
             </div>
 
             <div id="mainNav" >
-            <<div id="dropNav" class="dropdown">
+            <div id="dropNav" class="dropdown">
               <button id="buttonMenu" class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" ><span  class="glyphicon glyphicon-th-list"></span></button>
               <ul class="dropdown-menu">
                   <li><a href="Default.aspx" class="headerLink">HOME</a></li>
@@ -61,12 +61,12 @@
              </div>
              <div id="inlineNav" >
               <ul class="nav nav-pills">
-                  <li class="active"><a href="Default.aspx" class="headerLink">HOME</a></li>
-                  <li ><a href="Menu.aspx" class="headerLink">MENU</a></li>
-                  <li><a href="Locations.aspx" class="headerLink">LOCATIONS </a></li>
-                  <li><a href="Events.aspx" class="headerLink">EVENTS</a></li>
-                  <li><a href="OrderOnline.aspx" class="headerLink"">ORDER ONLINE</a></li>
-                  <li><a href="AboutUs.aspx" class="headerLink">ABOUT US</a></li>
+                  <li><a href="Default.aspx" class="headerLink">HOME</a></li>
+                  <li><a  href="Menu.aspx" class="headerLink">MENU</a></li>
+                  <li><a  href="Locations.aspx" class="headerLink" >LOCATIONS </a></li>
+                  <li><a  href="Events.aspx" class="headerLink">EVENTS</a></li>
+                  <li><a  href="OrderOnline.aspx" class="headerLink">ORDER ONLINE</a></li>
+                  <li><a  href="AboutUs.aspx" class="headerLink">ABOUT US</a></li>
               </ul>
               </div>
             </div>
@@ -82,18 +82,18 @@
             <table class="bottomTable">
                 <tr>
                     <td class="Icon">
-                        <p>Find us on:</p>
+                        <p class="externalLinks">Find us on:</p>
                         <a href="http://instagram.com">
-                            <i class="fa fa-instagram " aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-2x " aria-hidden="true"></i>
                         </a>
                         <a href="http://facebook.com">
-                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
                         </a>
                         <a href="https://twitter.com">
-                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                         </a>
                         <a href="https://youtube.com">
-                            <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
                         </a>
                     </td>
                     <td class="tdLinks">
@@ -119,7 +119,7 @@
         </div>
     </div>
 
-    <p >&copy;&nbsp;<script type="text/javascript">document.write(new Date().getFullYear());</script>
+    <p class="footer" >&copy;&nbsp;<script type="text/javascript">document.write(new Date().getFullYear());</script>
         Paul A's Barbecue Inc. All Rights Reserved</p>
 </body>
 </html>

@@ -4,15 +4,15 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div id="locationDiv" runat ="server" style="margin-top:50px; margin-bottom: 50px">
+<div id="locationDiv" class="locationAlign" runat ="server" style="margin-top:50px; margin-bottom: 50px">
     <br /><br /><asp:Label ID="zipLabel" runat="server" Text="Please enter your zip code, city or state:"></asp:Label>&nbsp; <asp:TextBox
-        ID="zipText" runat="server"></asp:TextBox><br /><br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        ID="zipText" runat="server"></asp:TextBox><br /><br /><br />
+  
     <asp:Button ID="submit" runat="server" Text="Submit" OnClick= "GetNearLocation" /><br /><br />
     <asp:Label
         ID="errorMessage" runat="server" Text=""></asp:Label>
 </div>
-<div id= "locationResults" runat ="server">
+<div id= "locationResults" class="locationAlign" runat ="server">
     <asp:DataList ID="locationDataList" runat="server">
     <HeaderTemplate><p style="color:grey">Nearest location:</p></HeaderTemplate>
     <ItemTemplate >      

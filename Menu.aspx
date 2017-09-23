@@ -5,15 +5,20 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
      <div id="myNewMenu">
-          <asp:ImageButton ID="appImage" runat="server" ImageUrl ="~/Images/appetizer.jpg" class="img-rounded"  OnClick ="appImage_Click"/>
-          <asp:HyperLink ID="appLabel" runat="server"  Text="Appetizer" CssClass="auto_style1"  NavigateUrl="~/Appetizers.aspx" />
-          <asp:ImageButton ID="entreeImage" runat="server" ImageUrl ="~/Images/Entree.jpg" class="img-rounded"  OnClick ="entreeImage_Click" />
-          <asp:HyperLink ID="entreeLabel" runat="server"
-                Text="Entree" CssClass="auto_style1" NavigateUrl="~/Entrees.aspx"/>
-          <asp:ImageButton
-                ID ="dessertImage" runat="server" ImageUrl ="~/Images/dessert.jpg" class="img-rounded" OnClick ="dessertImage_Click"/> 
-          <asp:HyperLink
-            ID="dessertLabel" runat="server" NavigateUrl="Desserts.aspx" CssClass="auto_style1">Desserts</asp:HyperLink>
-
+                    <div class="menuDisplay">
+                     <asp:ImageButton ID="appImage" runat="server" ImageUrl ="~/Images/appetizer.jpg" class="img-rounded img-menu"  OnClick ="appImage_Click"/>
+                     <asp:HyperLink ID="appLabel" runat="server"  Text="Appetizer"  NavigateUrl="~/Appetizers.aspx" />
+                   </div>
+                 <div class="menuDisplay">
+                     <asp:ImageButton ID="entreeImage" runat="server" ImageUrl ="~/Images/Entree.jpg" class="img-rounded img-menu"  OnClick ="entreeImage_Click" />
+                     <asp:HyperLink ID="entreeLabel" runat="server"
+                           Text ="Entree"  NavigateUrl="~/Entrees.aspx"/>
+                 </div>
+                 <div class="menuDisplay">
+                   <asp:ImageButton
+                       ID  ="dessertImage" runat="server" ImageUrl ="~/Images/dessert.jpg" class="img-rounded img-menu" OnClick ="dessertImage_Click"/> 
+                   <asp:HyperLink
+                       ID="dessertLabel" runat="server" NavigateUrl="Desserts.aspx">Desserts</asp:HyperLink>
+                </div>  
       </div>
 </asp:Content>
