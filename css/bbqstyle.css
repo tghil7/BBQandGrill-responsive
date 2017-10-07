@@ -39,10 +39,12 @@
     }
 
     #describeOrder {
-        text-align:left; 
+        display: flex;
+        text-align:right; 
         margin: auto; 
         color: black;
         background-color: white;
+        align-content: flex-end;
     }
 
     table {
@@ -641,9 +643,11 @@ a:hover{
   .sub_Menu
   {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
+        align-content:space-between;
   }
 
   .footer{
@@ -696,7 +700,7 @@ a:hover{
 .accordion 
 {
   background-color: #eef;
-  width: 20% ;
+  width: inherit ;
   margin-top: 0.1em;
   font-family: Verdana, Tahoma, Sans-Serif;
   margin-bottom: 1em;
@@ -705,11 +709,11 @@ a:hover{
         /* term box contains the term to be defined */
 .term 
 {
-  padding: 2%;
   background: url("../Images/tinyArrow.png") no-repeat 98% center;
   border: solid 1px white;
   margin:auto;
   color: black;
+  width: 100%;
 }
 
 .term:hover

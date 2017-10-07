@@ -9,10 +9,10 @@
     });
 });
 
-//<![CDATA[
-$("#defaultPage").on("load", function () {
-    setInterval('displayImage()', 5000);
-    if (document.getElementById("menuImage") != null) {
+
+$("#defaultPage").ready(function () { 
+    var rollingImage = document.getElementById("menuImage");
+    if (rollingImage != null) {
         var dish = new Array(4);
         var curDish = 0;
         dish[0] = "Riz au gras.jpg";
@@ -22,15 +22,18 @@ $("#defaultPage").on("load", function () {
         function displayImage() {
             if (curDish == 3)
                 curDish = 0;
-            else
+            else {
                 curDish++;
             document.getElementById("menuImage").src = "../images/" + dish[curDish];
         }
     }
+    setInterval(displayImage, 5000);
+  }
 });
-//]]>
 
-    $(window).load(function () {
+
+
+    $("#defaultPage").load(function () {
         $('#myModal').modal('show');
 
     });
@@ -47,7 +50,8 @@ $("#defaultPage").on("load", function () {
     function Submit()
     {
         if ((document.getElementById("wings").checked == true) || (document.getElementById("blt").checked == true) || (document.getElementById("cobbler").checked == true) || (document.getElementById("beans").checked == true) || (document.getElementById("pork").checked == true) || (document.getElementById("rings").checked == true) || (document.getElementById("skillet").checked == true) || (document.getElementById("cream").checked == true) || (document.getElementById("mozarella").checked == true) || (document.getElementById("couscous").checked == true) || (document.getElementById("cheese_pie").checked == true) || (document.getElementById("pecan").checked == true)) {
-              document.getElementById("add_cart").setAttribute("data-target", "#myModal");
+            document.getElementById("myModal").removeClass("hide")
+            document.getElementById("add_cart").setAttribute("data-target", "#myModal");
             }
 
          else

@@ -69,7 +69,7 @@
     </table>
     
          <button  id="add_cart" type="button" class="btn btn-info btn-lg" style ="float:right; margin-right: 10px" data-toggle="modal" onclick="Submit()">Submit</button><br /><br />
-    <div id="myModal" class="modal fade" role="dialog">
+    <div id="myModal" class="modal fade hide" role="dialog">
        <div class="modal-dialog">
           <div class="modal-content">
                <div class="modal-header">
