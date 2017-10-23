@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <title>Contact Us</title>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server" action="http://formspree.io/tghil7@aol.com">
 
 <div id ="contactPage">
 <h4>Main Address:</h4>
@@ -11,13 +11,20 @@
       (225)08-00-01-12
 <h4>Contact Us:</h4><br />
     <div id="contactForm" class="logo">
+      <asp:Label ID ="errorMessage" runat="server" Text="">
+     </asp:Label>
        <div id = "sendMessage" >
-          <label>First Name: <input type="text" name="firstName" id="firstName" size="25" /></label>
-          <label>Last Name: <input type="text" name="lastName" id="lastName" size="25" /></label>
-          <label>E-mail:<input type="text" name="eMail" id="eMail" size="25" /></label>
-          <label>Send us a Message below:</label>
-          <textarea id="commentText" cols="50" rows= "7"></textarea><br /><br /><br />
-          <asp:Button ID="Contact" runat="server" Text="Submit" />
+          <p>Your name:<br />
+         <asp:TextBox ID="YourName" runat="server" Width="150px" /><br />
+          Your email address:<br />
+          <asp:TextBox ID="YourEmail" runat="server" Width="150px" /><br />
+          Your comments:<br />
+         <asp:TextBox ID="Comments" runat="server" TextMode="MultiLine" Rows="10" Width="400px" />
+          </p>
+           <p>
+               <asp:Button ID="Button1" runat="server" Text="Send" OnClick="SendMessage" />
+          </p> 
+          
           <button id="reset" onclick="reset()">Reset</button>
       </div>
    </div>

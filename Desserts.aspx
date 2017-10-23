@@ -4,9 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div id = "entrees" class="sub_Menu">
-    <table>
-        <tr>
-            <td>
+       <div class="appetizing">
                 <img alt=" peach cobbler" src="../Images/peach_cobbler.jpg" class="breakfastImg img-rounded"/>
                 <div class="accordion">
                     <div class="term">
@@ -14,8 +12,8 @@
                     </div>
                     <p class="textClass"> Speciality Peach Cobbler made with peaches, brown sugar, flour and eggs.</p>
                 </div>
-            </td>
-            <td>
+       </div>
+       <div class="appetizing">
                <img alt="pecan pie" src="../Images/pecan.jpg" class="breakfastImg img-rounded" />
                 <div class="accordion">
                     <div class="term">
@@ -23,11 +21,8 @@
                     </div>
                     <p>Pecan Pie with pecan nuts, cream and brown sugar.</p>
                 </div>
-            </td>
-            
-        </tr>
-        <tr>
-            <td>
+        </div>
+        <div class="appetizing">
                 <img alt="Ice cream sandwich" src="../Images/cream_sandwich.jpg" class="breakfastImg img-rounded"  />
                 <div class="accordion">
                     <div class="term">
@@ -35,8 +30,8 @@
                     </div>
                 <p> Home made Ice cream sandwich</p>
                 </div>
-            </td>
-             <td>
+         </div>
+         <div class="appetizing">
                 <img alt="Cream cheese pie" src="../Images/cream_cheese.jpg" class="breakfastImg img-rounded" />
                  <div class="accordion">
                     <div class="term">
@@ -44,9 +39,6 @@
                     </div>
                      <p class="textClass">Cream cheese pie with vanilla, eggs and lots of cheese!</p>
                  </div>
-            </td>
-        </tr>
-        
-    </table>
+         </div>
 </div>
 </asp:Content>

@@ -96,10 +96,10 @@
                             <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
                         </a>
                     </td>
-                    <td class="tdLinks">
+                    <td class="tdLeftLinks">
                         <a href="ContactUS.aspx">Contact Us</a>
                     </td>
-                    <td class="tdLinks">
+                    <td class="tdRightLinks">
                         <a href="DealClub.aspx">Deal Club</a>
                     </td>
                 </tr>
@@ -107,9 +107,9 @@
                     <td class="tdLinks">
                         <!--Nothing to show here-->
                     </td>
-                    <td class="tdLinks"><a href="Delivery.aspx">Delivery</a><br />
+                    <td class="tdLeftLinks"><a href="Delivery.aspx">Delivery</a><br />
                     </td>
-                    <td class="tdLinks">
+                    <td class="tdRightLinks">
                         <a href="OrderOnline.aspx">Order Online</a><br />
                     </td>
 

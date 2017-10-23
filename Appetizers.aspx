@@ -33,7 +33,7 @@
                     <p>Onion Rings coated with floor, egg and bread mixture.</p>
                 </div>
            </div>
-
+          
            <div class="appetizing">
                 <img alt="" src="../Images/mozarella_sticks.jpg"  class="img-rounded"/><br />
                  <div class="accordion">
