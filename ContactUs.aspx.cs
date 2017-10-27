@@ -18,15 +18,10 @@ namespace BBQandGrill
         protected void SendMessage(object sender, EventArgs e)
         {
             MailMessage message = new MailMessage();
-            try
-            {
+           
                 string senderEmail = YourEmail.Text.ToString();
                 message.From = new MailAddress(senderEmail);         
-            }
-            catch (Exception fexcep)
-            {
-                errorMessage.Text = "Please enter a valid email address " + fexcep;     
-            }
+            
             message.To.Add(new MailAddress("lightonserge@gmail.com"));
             message.Subject = "Message via My Site from " + YourName.Text.ToString();
             message.Body = Comments.Text.ToString();
