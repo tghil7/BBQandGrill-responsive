@@ -53,11 +53,9 @@
 
     #describeOrder {
         display: flex;
-        text-align:right; 
         margin: auto; 
         color: black;
         background-color: white;
-        align-content: flex-end;
     }
 
     table {
@@ -85,7 +83,6 @@
          height:auto;
          width: 100%;
     }
-
     .grandMa{
         color: black;
     }
@@ -450,6 +447,7 @@ body {
         flex-wrap: wrap;
         align-content: flex-start;
         font-family: 'Pontano Sans', sans-serif !important;
+        height: 100%;
     }
 
 
@@ -768,6 +766,7 @@ a:hover{
 
 #myNewMenu{
     display: inline-flex;
+    width: 100%;
     flex-wrap:nowrap;
     align-content:space-between center;
     margin-left:auto;
