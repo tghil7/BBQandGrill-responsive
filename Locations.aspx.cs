@@ -37,7 +37,7 @@ namespace BBQandGrill
 
             else
             {
-                SqlConnection conn = new SqlConnection("Data Source=LAPTOP-5G5115C0\\SQLEXPRESS;Initial Catalog=CSharpEvents;Integrated Security=True");
+                SqlConnection conn = new SqlConnection("DRIVER={MySQL ODBC 5.3 ANSI Driver};SERVER=mssql4.gear.host;DATABASE=csharpevents;UID=csharpevents;PWD=Rs57I!V?HC2W");
 
 
 
