@@ -30,7 +30,7 @@ namespace BBQandGrill
 
             else
             {
-                SqlConnection conn_Event = new SqlConnection("DRIVER={MySQL ODBC 5.3 ANSI Driver};SERVER=mssql4.gear.host;DATABASE=csharpevents;UID=csharpevents;PWD=Rs57I!V?HC2W");
+                SqlConnection conn_Event = new SqlConnection("Data Source=mssql4.gear.host;Initial Catalog=csharpevents;User ID=csharpevents;Password=Rs57I!V?HC2W");
                 conn_Event.Open();
 
 
