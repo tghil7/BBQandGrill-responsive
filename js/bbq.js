@@ -71,8 +71,7 @@ $("#defaultPage").ready(function () {
            {
             $(document).ready(function () {
                 $("#warnModal").removeClass("hide");
-                document.getElementById("add_cart").setAttribute("data-target", "#warnModal");
-                
+                document.getElementById("add_cart").setAttribute("data-target", "#warnModal");    
             });
            }
 
@@ -82,6 +81,24 @@ $("#defaultPage").ready(function () {
     function linkClick(){
         document.getElementsByTagName("li").className = "active";
         document.getElementById("home").className = "";
+    }
+
+    function register()
+    {
+        if (document.getElementById("email_address").value != "") {
+            $(document).ready(function () {
+                $("#emailModal").removeClass("hide");
+                document.getElementById("add_email").setAttribute("data-target", "#emailModal");
+                document.getElementById("email_address").value = "";
+            });
+        }
+        else {
+            $(document).ready(function () {
+                $("#errorModal").removeClass("hide");
+                document.getElementById("add_email").setAttribute("data-target", "#errorModal");
+            });
+
+        }
     }
                    
 

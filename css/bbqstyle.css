@@ -13,16 +13,13 @@
         font-family: 'Pontano Sans', sans-serif !important;
     }
 
-    .tdLeftLinks {
-    }
+    
     
     textarea{
         width: 100%;
     }  
 
-    .tdRightLinks{
-     
-    }
+   
 
     .footer-paragraph {
       display: flex;
