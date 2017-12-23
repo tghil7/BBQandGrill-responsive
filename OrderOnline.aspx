@@ -76,10 +76,28 @@
                     <button type="button" data-dismiss="modal" class="close">&times</button>
                </div>
                <div class="modal-body">
-               <p>Your order was successfully submitted!</p>
+               <p>Your order was successfully submitted!However, you will not be directed to a cart <br />
+                as this is not a real website.
+               </p>
                </div>
                <div class="modal-footer">
-               <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+               <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+               </div>
+          </div>
+        </div>  
+    </div>
+    <div id="warnModal" class="modal fade hide" role="dialog">
+       <div class="modal-dialog">
+          <div class="modal-content">
+               <div class="modal-header">
+                    <button type="button" data-dismiss="modal" class="close">&times</button>
+               </div>
+               <div class="modal-body">
+               <p>Please make an selection!
+               </p>
+               </div>
+               <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
                </div>
           </div>
         </div>  

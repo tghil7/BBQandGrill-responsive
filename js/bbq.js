@@ -49,16 +49,32 @@ $("#defaultPage").ready(function () {
     
     function Submit()
     {
-        if ((document.getElementById("wings").checked == true) || (document.getElementById("blt").checked == true) || (document.getElementById("cobbler").checked == true) || (document.getElementById("beans").checked == true) || (document.getElementById("pork").checked == true) || (document.getElementById("rings").checked == true) || (document.getElementById("skillet").checked == true) || (document.getElementById("cream").checked == true) || (document.getElementById("mozarella").checked == true) || (document.getElementById("couscous").checked == true) || (document.getElementById("cheese_pie").checked == true) || (document.getElementById("pecan").checked == true)) {
-            document.getElementById("myModal").removeClass("hide")
-            document.getElementById("add_cart").setAttribute("data-target", "#myModal");
+        if ((document.getElementById("wings").checked == true) ||
+            (document.getElementById("blt").checked == true) ||
+            (document.getElementById("cobbler").checked == true) ||
+            (document.getElementById("beans").checked == true) ||
+            (document.getElementById("pork").checked == true) ||
+            (document.getElementById("rings").checked == true) ||
+            (document.getElementById("skillet").checked == true) ||
+            (document.getElementById("cream").checked == true) ||
+            (document.getElementById("mozarella").checked == true) ||
+            (document.getElementById("couscous").checked == true) ||
+            (document.getElementById("cheese_pie").checked == true) ||
+            (document.getElementById("pecan").checked == true)) {
+            $(document).ready(function () {
+                $("#myModal").removeClass("hide");
+                document.getElementById("add_cart").setAttribute("data-target", "#myModal");
+            });
             }
 
          else
-            {
-              document.getElementById("add_cart").setAttribute("data-target", "");
-              alert("Please make a selection");
-             }
+           {
+            $(document).ready(function () {
+                $("#warnModal").removeClass("hide");
+                document.getElementById("add_cart").setAttribute("data-target", "#warnModal");
+                
+            });
+           }
 
 
     }

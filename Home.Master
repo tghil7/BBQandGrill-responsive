@@ -29,7 +29,7 @@
             <div id="headOfSite">
               <div id="logoDiv">
                     <a href="Default.aspx">
-                           <img src="../Images/spicy.jpg" class="img-rounded logo" alt="Barbecue logo" />
+                           <img src="../Images/fruits.png" class="img-rounded logo" alt="Barbecue logo" />
                     </a>
               </div>
                 <p id="siteTitle">
