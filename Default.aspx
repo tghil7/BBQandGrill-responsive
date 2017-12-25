@@ -13,7 +13,7 @@
        Please visit  our events page for special events happening near you! 
      </p>
     </div>
-    <div class="modal fade window-center" id="myModal" tabindex="-1">
+    <div class="modal fade window-center" id="entryModal" tabindex="-1">
                                  <div class="modial-dialog modal-sm">
                                        <div class="modal-content">
                                             <div class="modal-header">

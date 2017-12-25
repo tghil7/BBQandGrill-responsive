@@ -37,7 +37,7 @@
                     <button type="button" data-dismiss="modal" class="close">&times</button>
                </div>
                <div class="modal-body">
-               <p>Please make an selection!
+               <p>Please enter an email address!
                </p>
                </div>
                <div class="modal-footer">

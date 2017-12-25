@@ -30,7 +30,7 @@
                <asp:Button ID="Button1" runat="server" Text="Send" OnClick="SendMessage" />
           </p> 
           
-          <button id="reset" onclick="reset()">Reset</button>
+          <button id="reset" type="button" onclick="reset()">Reset</button>
       </div>
    </div>
 </div>
