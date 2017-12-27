@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net;
 using System.Net.Mail;
 
 namespace BBQandGrill
@@ -30,7 +31,8 @@ namespace BBQandGrill
             client.EnableSsl = true;
             client.DeliveryMethod = SmtpDeliveryMethod.Network; 
             client.UseDefaultCredentials = false;
-            client.Credentials = new System.Net.NetworkCredential("lightonserge@mgail.com", "peacetghil5g");  // [4] Added this. Note, first parameter is NOT string.
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("lightonserge@mgail.com", "peacetghil5g");
+            client.UseDefaultCredentials = false;
             client.Host = "smtp.gmail.com";
             try
             {
