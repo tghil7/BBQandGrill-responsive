@@ -23,7 +23,7 @@ namespace BBQandGrill
                 string senderEmail = YourEmail.Text.ToString();
                 message.From = new MailAddress(senderEmail);         
             
-            message.To.Add(new MailAddress("lightonserge@gmail.com"));
+            message.To.Add(new MailAddress("johnserge99@gmail.com"));
             message.Subject = "Message via My Site from " + YourName.Text.ToString();
             message.Body = Comments.Text.ToString();
             SmtpClient client = new SmtpClient();
@@ -31,8 +31,8 @@ namespace BBQandGrill
             client.EnableSsl = true;
             client.DeliveryMethod = SmtpDeliveryMethod.Network; 
             client.UseDefaultCredentials = false;
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("lightonserge@mgail.com", "peacetghil5g");
-            client.UseDefaultCredentials = false;
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("johnserge99@mgail.com", "peacetghil5g");
+            client.Credentials = credentials;
             client.Host = "smtp.gmail.com";
             try
             {

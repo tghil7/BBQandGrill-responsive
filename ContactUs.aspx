@@ -20,7 +20,7 @@
          <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="YourName" runat="server" ErrorMessage="Please enter your name"></asp:RequiredFieldValidator><br />
            Your name:<br />
          <asp:TextBox ID="YourName" runat="server" Width="150px" /><br />          
-          <asp:RegularExpressionValidator ID="RegularExpressionValidator1" ControlToValidate="YourEmail" runat="server" ErrorMessage="E-mail addresses must be in the format name@domain.xyz."></asp:RegularExpressionValidator><br />
+          <asp:RegularExpressionValidator ID="RegularExpressionValidator1" ControlToValidate="YourEmail" runat="server" ErrorMessage="E-mail addresses must be in the format name@domain.xyz." ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"></asp:RegularExpressionValidator><br />
                Your email address:<br />
           <asp:TextBox ID="YourEmail" runat="server" Width="150px" /><br />
           Your comments:<br />
