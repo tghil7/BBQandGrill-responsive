@@ -291,16 +291,20 @@
     }
 
     #contactForm {
+        display: flex;
         border-style: solid;
         margin: 1%;
         width: 100%;
         color: black;
         padding: 10px;
         background-color: Lime;
+        align-items: flex-start;
+        align-content: flex-start;
     }
 
     #contactPage {
         color: black;
+       
     }
 
     .hide {

@@ -19,18 +19,17 @@
               
          <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="YourName" runat="server" ErrorMessage="Please enter your name"></asp:RequiredFieldValidator><br />
            Your name:<br />
-         <asp:TextBox ID="YourName" runat="server" Width="150px" /><br />          
+         <asp:TextBox ID="YourName" runat="server" Width="40%" /><br />          
           <asp:RegularExpressionValidator ID="RegularExpressionValidator1" ControlToValidate="YourEmail" runat="server" ErrorMessage="E-mail addresses must be in the format name@domain.xyz." ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"></asp:RegularExpressionValidator><br />
                Your email address:<br />
-          <asp:TextBox ID="YourEmail" runat="server" Width="150px" /><br />
+          <asp:TextBox ID="YourEmail" runat="server" Width="40%" /><br />
           Your comments:<br />
-         <asp:TextBox ID="Comments" runat="server" TextMode="MultiLine" Rows="10" Width="400px" />
+         <asp:TextBox ID="Comments" runat="server" TextMode="MultiLine" Rows="10" Width="100%" />
           </p>
            <p>
                <asp:Button ID="Button1" runat="server" Text="Send" OnClick="SendMessage" />
           </p> 
           
-          <button id="reset" type="button" onclick="reset()">Reset</button>
       </div>
    </div>
 </div>

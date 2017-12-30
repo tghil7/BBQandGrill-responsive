@@ -40,10 +40,12 @@ $(document).ready(function () {
 });
 
  
-    function reset() {
-        document.getElementById("firstName").value = "";
-        document.getElementById("lastName").value = "";
-        document.getElementById("eMail").value = "";
+function reset() {
+        $(document).ready(function () {
+            document.getElementById("firstName").value = "";
+            document.getElementById("lastName").value = "";
+            document.getElementById("eMail").value = "";
+        });
     }
 
 
