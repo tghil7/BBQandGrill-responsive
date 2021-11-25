@@ -11,3 +11,10 @@ C:\Users\Anicet\Documents\C#\BBQandGrill\obj\Debug\BBQandGrill.pdb
 C:\Users\Anicet\Documents\C#\BBQandGrill\bin\MySql.Data.dll
 C:\Users\Anicet\Documents\C#\BBQandGrill\obj\Debug\BBQandGrill.csproj.CoreCompileInputs.cache
 C:\Users\Anicet\Documents\C#\BBQandGrill\obj\Debug\BBQandGrill.csprojResolveAssemblyReference.cache
+C:\Users\ANISET AKANZA\Source\Repos\BBQandGrill-responsive\bin\BBQandGrill.dll.config
+C:\Users\ANISET AKANZA\Source\Repos\BBQandGrill-responsive\bin\BBQandGrill.dll
+C:\Users\ANISET AKANZA\Source\Repos\BBQandGrill-responsive\bin\BBQandGrill.pdb
+C:\Users\ANISET AKANZA\Source\Repos\BBQandGrill-responsive\obj\Debug\BBQandGrill.csproj.AssemblyReference.cache
+C:\Users\ANISET AKANZA\Source\Repos\BBQandGrill-responsive\obj\Debug\BBQandGrill.csproj.CoreCompileInputs.cache
+C:\Users\ANISET AKANZA\Source\Repos\BBQandGrill-responsive\obj\Debug\BBQandGrill.dll
+C:\Users\ANISET AKANZA\Source\Repos\BBQandGrill-responsive\obj\Debug\BBQandGrill.pdb

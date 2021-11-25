@@ -1,0 +1,157 @@
+﻿#wrapper{
+         margin:auto;
+		 width: 78%;
+		 min-width: 1200px;
+		 text-align: center; 
+		 
+		 }
+
+.titleshow {
+    background-color : Purple;
+    float:left;
+  
+}
+
+#mainNav
+{
+    margin:auto;
+   background-color:Aqua;
+  
+    
+}
+
+#footlink
+{
+    margin-left:inherit;
+}
+
+a{text-decoration:none;}
+
+#siteTitle
+{
+    float: left;
+    font-family:Cambria;
+    font-style: italic;
+    font-weight:bold;
+    font-size:larger;
+    height: 53px;
+    margin-left: 110px;
+    margin-top: 0px;
+    width: 680px;
+    text-align:center;
+    color: Blue;
+}
+
+
+        
+        .bigTitleHead
+        {
+            font-family: "Georgia";
+            text-align: center;
+            font-size:larger;
+            font-variant: normal;
+            text-transform: capitalize;
+            color: Blue;
+            text-align: center;
+            
+        }
+        
+        #slogan
+        {
+            color: Blue;
+            float:right;
+            margin-bottom:10px;
+        }
+        
+        
+     
+        #Select1
+        {
+            width: 116px;
+        }
+        
+        
+     
+        .bottomTable
+        {
+            width: 100%;
+            text-decoration:none;
+            background-color: #E0E0E0;
+        }
+        .dataTableClass
+        {
+            width: 165px;
+            text-decoration:none;
+            padding-right: 200px;
+            padding-left : 100px;
+            color:Blue;
+            background-color: #E0E0E0;
+        }
+        
+        .textClass
+        {
+            color:Blue;
+        }
+        
+         #contactForm
+         {
+             
+             border-style:solid;
+             margin:15 px;
+             width: 900px;
+             color:Blue;
+             padding: 10px;
+             background-color:Lime;
+         }
+         
+         #contactPage
+         {
+          color:Blue;   
+         }
+         
+         .hide
+         {
+             display: none;
+             width : 0px;
+             height: 0px;
+             
+         }
+         
+         .show
+         {
+             display: inline;
+         }
+         
+         .errorTextClass
+         {
+             color :Red;
+         }
+         
+         .removeSpace
+         {
+             margin-top : 0px;
+             margin-bottom: 0px;
+         }
+         
+  .sub_Menu
+  {
+       padding: 20px;
+  }
+     
+ .warnText
+ {
+     font-size: medium;
+     background-color: Yellow; 
+     color:Red; 
+     position:relative;
+     
+       
+ }  
+ 
+#deals
+{
+    color: Blue;
+    text-align:left;
+    padding: 15px;
+} 
+       

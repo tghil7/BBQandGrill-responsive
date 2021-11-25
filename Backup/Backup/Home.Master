@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="BBQandGrill.Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="Stylesheet" href="bbqstyle.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">   
+    </asp:ContentPlaceHolder>
+    <script src="jquery-1.2.6.js" type="text/javascript"></script>    
+</head>
+<body style=" background-color: #380000">
+<div id= "wrapper" align= "center" style=" background-color: White">
+    <form id="formStyle" runat="server">
+<div id="headOfSite" style="background-color: #FFFFCC">
+ <a href="Default.aspx"><img src="../Images/spicy.jpg" alt="Barbecue logo" style="width: 66px; height: 60px; float: left" /></a>
+ <p id="siteTitle"><span class="bigTitleHead">PAUL   A'S BARBECUE AND GRILL</span></p><br />
+ <p id="slogan">The best barbecue in town!</p>
+    <br /><br /><br />
+</div>
+
+<div id="mainNav" align="center">
+     <a href="Menu.aspx" style="padding-right:100px">MENU</a>
+     <a  href="Locations.aspx" style="padding-right:100px" >LOCATIONS </a>
+     <a href="Events.aspx" style="padding-right:100px">EVENTS</a> 
+     <a href="OrderOnline.aspx" style="padding-right:100px">ORDER ONLINE</a>
+     <a href="AboutUs.aspx">ABOUT US</a>
+     <br />
+</div>
+
+ 
+    <div align="center">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+   </form>
+    <div id="footlink" align="center">
+     
+        <table class="bottomTable">
+            <tr>
+                <td class="dataTableClass">
+                    Find us on:</td>
+                <td>
+                    &nbsp;<a href="ContactUS.aspx" style="padding-right:250px">Contact Us</a><a href="DealClub.aspx">Deal Club</a></td>
+            </tr>
+            <tr>
+                <td class="dataTableClass">
+                    &nbsp;<a  href= "https://facebook.com"><img src="../Images/facebook.gif" alt="facebook link"  style="float:left; padding-right : 15px" /></a><a href="https://twitter.com" ><img 
+                        src="../Images/twitter.gif" alt="Twitter link"  style="float:left"/></a></td>
+                <td>
+                    &nbsp;<a href="Delivery.aspx" style="padding-right:265px">Delivery</a><a href="Careers.aspx">Careers</a></td>
+            </tr>
+            <tr>
+                <td class="dataTableClass">
+                    &nbsp;<a href="http://pinterest.com"><img src="../Images/pinterest.gif" alt="Pinterest link"  style="float:left; padding-right : 15px"/></a><a href="http://instagram.com"><img src="../Images/Instagram.gif" alt="Instagram link"  style="float:left"/></a></td>
+                <td>
+                    &nbsp;<a href="MyProfile.aspx" style="padding-right:250px">My Profile</a><a href="OrderOnline.aspx">Order Online</a></td>
+            </tr>
+            <tr>
+                <td class="dataTableClass">
+                    &nbsp;<a href="https://youtube.com"><img src="../Images/youtube.gif" alt="Youtube link" style="float:left"/></a></td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+        </table>
+     
+    </div>
+</div>
+<div>
+
+    <p style="font-size: small; padding-right : 50px; color:Blue; text-align:center" > &copy; 2015 Paul A's Barbecue Inc. All Rights Reserved</p>
+</div>
+<div id ="warning_div" class = "warnText">
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".warnText").animate({"left": "-= 999px"}, "slow");
+    });
+</script>
+    <p  id ="warning_message" class="warnText" >This is a test website, for training purpose only!Please do not perform any transactions on this website, or use it 
+    in any way other than training. Not responsible for any consequence from performing transactions (orders, payments) on this website.</p>
+</div>
+
+</body>
+</html>
+
+
